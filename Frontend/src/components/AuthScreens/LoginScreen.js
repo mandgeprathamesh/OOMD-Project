@@ -94,12 +94,25 @@ const LoginScreen = () => {
             </div>
             <Link to="/forgotpassword" className="login-screen__forgotpassword"> Forgot Password ?
             </Link>
+            
             <button type="submit" >
               Login
             </button>
 
           </form>
 
+
+          <div className="google-signin-container">
+            <p>or login with</p>
+            <div className="google-signin-button">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/1200px-Google_%22G%22_logo.svg.png"
+                alt="Google Logo"
+                className="google-logo"
+              />
+              <span>Sign in with Google</span>
+            </div>
+          </div>
 
         </div>
 

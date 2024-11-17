@@ -161,3 +161,41 @@
     font-size: 0.9rem;
     text-align: center;
 }
+
+.google-signin-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.google-signin-container p {
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+    color: #646464;
+    font-family: 'Inter', sans-serif;
+}
+
+.google-signin-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #dadcdd;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #fff;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 0.9rem;
+    color: #646464;
+}
+
+.google-signin-button:hover {
+    background-color: #f7f7f7;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.google-logo {
+    width: 20px;
+    margin-right: 10px;
+}
